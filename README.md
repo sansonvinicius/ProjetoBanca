@@ -1,2 +1,2 @@
 # ProjetoFinalAdrianVinicius
-Projeto Final para a aula de C# Adrian e Vinicius
+Projeto desenvolvido por Adrian e Vinicius para ser utilizado em bancas de jornal
