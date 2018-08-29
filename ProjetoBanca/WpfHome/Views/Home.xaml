@@ -1,0 +1,23 @@
+﻿<Window x:Name="Tela_inicial" x:Class="WpfHome.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfHome"
+        mc:Ignorable="d"
+        Title="Home" Height="450" Width="800">
+    <Grid>
+
+        <StackPanel HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="792">
+            <Menu HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="792">
+
+                <Button x:Name="btnParceiros" Content="Parceiro de Negócios" Height="23" Width="117" Click="BtnParceiros_Click" />
+                <Button x:Name="btnEstoque" Content="Estoque" Height="23" Width="56" Click="btnEstoque_Click"/>
+                <Button x:Name="btnProdutos" Content="Produtos" Height="23" Width="57" Click="btnProdutos_Click"/>
+                <Button x:Name="btnCompras" Content="Compras" Click="btnCompras_Click"/>
+                <Button x:Name="btnVendas" Content="Vendas" Click="btnVendas_Click"/>
+            </Menu>
+        </StackPanel>
+
+    </Grid>
+</Window>
